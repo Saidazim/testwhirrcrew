@@ -5,6 +5,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 import { AppComponent } from './app.component';
 
@@ -19,6 +20,7 @@ import { AppComponent } from './app.component';
     MatInputModule,
     MatIconModule,
     MatButtonModule,
+    MatGridListModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
